@@ -198,7 +198,7 @@
 							<goal>run</goal>
 						</goals>
 						<configuration>
-						     </task>
+						       <task>
 								<mkdir dir="logs" />
 								<copy file="${basedir}/src/main/resources/messages_en.properties"
 									tofile="${project.build.outputDirectory}/messages.properties" />
